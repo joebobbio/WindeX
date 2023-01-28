@@ -1,4 +1,4 @@
--- WindeX 1.1 --
+-- WindeX 1.2.1 --
 It cleans your Windows. Like Windex. Get it?
 Made by 6cxe for everyone. Please credit if reposting. Thanks :)
 
@@ -14,7 +14,7 @@ I. Notes
 Only Windows 10 and Windows 11 (build 22000.51) has been tested to work. Newer builds of Windows 11 MAY work, but aren't supported currently.
 Edge is still installed. Cry about it.
 OneDrive is also installed but (iirc) it can't be removed without taking it out of the WIM yourself.
-WiFi connections are jank. I'll fix it soon(tm). See the addendum on how to connect.
+The devices tab in the Settings app causes a crash. Fix will be soon
 
 II. Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
@@ -64,7 +64,18 @@ Click Process.
 (optional) Disable Windows Defender for a faster process time
 
 Once it finishes, switch back to the Source tab if it hasn't taken you there already.
+**ULTRA IMPORTANT**
+BEFORE following the below step, copy oobe.bat to the folder with your ISO contents in it!!! You will need it later to finish setup!!!
+(you can replace all instances of MyUserName in the script with a username of your choice)
 Click the folder under Image history and click Create ISO at the top of the window.
 Give it a name and label of your choosing.
 
 You're done! Install it to your system like you would any other Windows ISO.
+Once you reboot after the installation, you'll notice that a command window appears. 
+Inside of it, run the following commands (assuming your install media drive letter is D:, if it's not, figure that out)
+copy d:\oobe.bat c:\
+c:\oobe.bat
+
+Installation will then finish and you will reboot into your account. Enjoy!
+
+Report any bugs: https://github.com/joebobbio/WindeX
