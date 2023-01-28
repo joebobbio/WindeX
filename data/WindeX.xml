@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/02/2023 14:13:10</Date>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>01/27/2023 21:14:54</Date>
 	<AppInfo>
-		<Version>2.3.9.9020</Version>
+		<Version>2.3.9.9039</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2364 (en-US)</Host>
+		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2486 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2364 (en-US)</Version>
-		<GUID>{D5730740-2DF6-46E8-E6BA-DB2AD70B6F83}</GUID>
+		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2006 (en-US)</Version>
+		<GUID>{9B7015D1-BC7D-45DA-BDE7-6C607A8CD38A}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
@@ -234,7 +234,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/INDEX</Key>
-								<Value>1</Value>
+								<Value>6</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -350,14 +350,10 @@
 			<TweakGroup name="services">
 				<Tweak name="BDESVC\BDESVC">4</Tweak>
 				<Tweak name="wbengine\wbengine">4</Tweak>
-				<Tweak name="BTAGService\BTAGService">4</Tweak>
-				<Tweak name="bthserv\bthserv">4</Tweak>
-				<Tweak name="BluetoothUserService\BluetoothUserService">4</Tweak>
 				<Tweak name="CaptureService\CaptureService">4</Tweak>
 				<Tweak name="autotimesvc\autotimesvc">4</Tweak>
 				<Tweak name="CDPSvc\CDPSvc">4</Tweak>
 				<Tweak name="DiagTrack\DiagTrack">4</Tweak>
-				<Tweak name="ConsentUxUserSvc\ConsentUxUserSvc">4</Tweak>
 				<Tweak name="PimIndexMaintenanceSvc\PimIndexMaintenanceSvc">4</Tweak>
 				<Tweak name="DusmSvc\DusmSvc">4</Tweak>
 				<Tweak name="DoSvc\DoSvc">4</Tweak>
@@ -403,7 +399,6 @@
 				<Tweak name="PrintWorkflowUserSvc\PrintWorkflowUserSvc">4</Tweak>
 				<Tweak name="wercplsupport\wercplsupport">4</Tweak>
 				<Tweak name="PcaSvc\PcaSvc">4</Tweak>
-				<Tweak name="QWAVE\QWAVE">4</Tweak>
 				<Tweak name="TroubleshootingSvc\TroubleshootingSvc">4</Tweak>
 				<Tweak name="RasAuto\RasAuto">4</Tweak>
 				<Tweak name="SessionEnv\SessionEnv">4</Tweak>
@@ -426,7 +421,6 @@
 				<Tweak name="FrameServer\FrameServer">4</Tweak>
 				<Tweak name="WerSvc\WerSvc">4</Tweak>
 				<Tweak name="Wecsvc\Wecsvc">4</Tweak>
-				<Tweak name="EventLog\EventLog">4</Tweak>
 				<Tweak name="stisvc\stisvc">4</Tweak>
 				<Tweak name="wisvc\wisvc">4</Tweak>
 				<Tweak name="LicenseManager\LicenseManager">4</Tweak>
