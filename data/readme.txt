@@ -1,4 +1,4 @@
--- WindeX 1.2.1 --
+-- WindeX 1.3.1 --
 It cleans your Windows. Like Windex. Get it?
 Made by 6cxe for everyone. Please credit if reposting. Thanks :)
 
@@ -11,7 +11,7 @@ III. Prerequisites
 2. Installing Windows
 
 I. Notes
-Only Windows 10 and Windows 11 (build 22000.51) has been tested to work. Newer builds of Windows 11 MAY work, but aren't supported currently.
+Only Windows 10 and Windows 11 have been tested to work.
 Edge is still installed. Cry about it.
 OneDrive is also installed but (iirc) it can't be removed without taking it out of the WIM yourself.
 The devices tab in the Settings app causes a crash. Fix will be soon
