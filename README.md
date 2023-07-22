@@ -18,6 +18,8 @@ The instructions will eventually find their way to the [wiki](https://github.com
 * [ ] Fix Devices tab in modern settings app
 
 ## Warning
+Be warned that your system **will be less secure** when using this preset. If this bothers you, revert the insecurities I made, or better yet, install regular Windows.
+
 A future update to Windows may undo some of the changes done by the configuration. Please reinstall Windows if that happens.
 
 
