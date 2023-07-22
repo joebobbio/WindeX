@@ -1,23 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/27/2023 21:14:54</Date>
+<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>07/21/2023 20:25:34</Date>
 	<AppInfo>
-		<Version>2.3.9.9039</Version>
+		<Version>2023.6.9292</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2486 (en-US)</Host>
+		<Host>Windows 11 Pro (22H2) x64 - 10.0.22621.1992 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2006 (en-US)</Version>
-		<GUID>{9B7015D1-BC7D-45DA-BDE7-6C607A8CD38A}</GUID>
+		<Version mode="offline">Windows 11 Professional (22H2) x64 - 10.0.22621.1848 (en-US)</Version>
+		<GUID>{B7D1773A-E658-067D-4061-FA931617BF7C}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
-		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
+		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
 		<c>appv 'Application Virtualization (App-V)'</c>
-		<c>E2A4F912-2574-4A75-9BB0-0D023378592B 'App Resolver'</c>
+		<c>clipchamp.clipchamp 'Clipchamp'</c>
+		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
-		<c>F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE 'Add Folder Suggestions dialog'</c>
+		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
 		<c>fciclient 'File Server Resource Manager'</c>
 		<c>hypervguest 'Hyper-V Integration Services'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
@@ -62,63 +63,60 @@
 		<c>langthai 'Thai'</c>
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
-		<c>Microsoft.549981C3F5F10 'Cortana'</c>
-		<c>Microsoft.Advertising.Xaml 'Microsoft Advertising SDK for XAML'</c>
-		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
-		<c>Microsoft.BingWeather 'MSN Weather'</c>
-		<c>Microsoft.BioEnrollment 'Windows Hello Setup'</c>
-		<c>Microsoft.CredDialogHost 'Credential Dialog'</c>
-		<c>Microsoft.ECApp 'Eye Control'</c>
-		<c>Microsoft.GetHelp 'Get Help'</c>
-		<c>Microsoft.Getstarted 'Tips (Get Started)'</c>
-		<c>Microsoft.HEIFImageExtension 'HEIF Image Extensions'</c>
-		<c>Microsoft.Microsoft3DViewer '3D Viewer'</c>
-		<c>Microsoft.MicrosoftEdge 'Microsoft Edge (Legacy)'</c>
-		<c>Microsoft.MicrosoftEdgeDevToolsClient 'Microsoft Edge DevTools Client'</c>
-		<c>Microsoft.MicrosoftOfficeHub 'Office'</c>
-		<c>Microsoft.MicrosoftSolitaireCollection 'Microsoft Solitaire Collection'</c>
-		<c>Microsoft.MicrosoftStickyNotes 'Microsoft Sticky Notes'</c>
-		<c>Microsoft.MixedReality.Portal 'Mixed Reality Portal'</c>
-		<c>Microsoft.MSPaint 'Paint 3D'</c>
-		<c>Microsoft.Office.OneNote 'OneNote'</c>
-		<c>Microsoft.People 'Microsoft People'</c>
-		<c>Microsoft.ScreenSketch 'Snip &amp; Sketch'</c>
-		<c>Microsoft.Services.Store.Engagement 'Microsoft Engagement Framework'</c>
-		<c>Microsoft.SkypeApp 'Skype'</c>
-		<c>Microsoft.StorePurchaseApp 'Store Experience Host'</c>
-		<c>Microsoft.VP9VideoExtensions 'VP9 Video Extensions'</c>
-		<c>Microsoft.Wallet 'Microsoft Pay'</c>
-		<c>Microsoft.WebMediaExtensions 'Web Media Extensions'</c>
-		<c>Microsoft.WebpImageExtension 'Webp Image Extensions'</c>
-		<c>Microsoft.Win32WebViewHost 'Desktop App Web Viewer'</c>
-		<c>Microsoft.Windows.AssignedAccessLockApp 'Assigned Access Lock app'</c>
-		<c>Microsoft.Windows.CallingShellApp 'Call'</c>
-		<c>Microsoft.Windows.CapturePicker 'Capture Picker'</c>
-		<c>Microsoft.Windows.ContentDeliveryManager 'Content Delivery Manager'</c>
-		<c>Microsoft.Windows.NarratorQuickStart 'Narrator'</c>
-		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'Captive Portal Flow'</c>
-		<c>Microsoft.Windows.ParentalControls 'Microsoft family features'</c>
-		<c>Microsoft.Windows.PeopleExperienceHost 'Windows Shell Experience'</c>
-		<c>Microsoft.Windows.Photos 'Microsoft Photos'</c>
-		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
-		<c>Microsoft.Windows.SecureAssessmentBrowser 'Take a Test'</c>
-		<c>Microsoft.Windows.XGpuEjectDialog 'Safely Remove Device'</c>
-		<c>Microsoft.WindowsAlarms 'Windows Alarms &amp; Clock'</c>
-		<c>Microsoft.WindowsCalculator 'Windows Calculator'</c>
-		<c>Microsoft.WindowsCamera 'Windows Camera'</c>
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.asynctextservice 'AsyncTextService'</c>
+		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.bioenrollment 'Windows Hello Setup'</c>
+		<c>microsoft.creddialoghost 'Credential Dialog'</c>
+		<c>microsoft.ecapp 'Eye Control'</c>
+		<c>microsoft.gamingapp 'Xbox App'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Tips (Get Started)'</c>
+		<c>microsoft.heifimageextension 'HEIF Image Extensions'</c>
+		<c>microsoft.microsoftedge 'Microsoft Edge (Legacy)'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
+		<c>microsoft.screensketch 'Snipping Tool'</c>
+		<c>microsoft.sechealthui 'Windows Defender'</c>
+		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
+		<c>microsoft.todos 'Microsoft To Do'</c>
+		<c>microsoft.vp9videoextensions 'VP9 Video Extensions'</c>
+		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
+		<c>microsoft.webpimageextension 'Webp Image Extensions'</c>
+		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
+		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
+		<c>microsoft.windows.callingshellapp 'Call'</c>
+		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
+		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
+		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
+		<c>microsoft.windows.oobenetworkcaptiveportal 'Captive Portal Flow'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
+		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
+		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
+		<c>microsoft.windowsalarms 'Windows Clock'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
 		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
-		<c>Microsoft.WindowsFeedbackHub 'Feedback Hub'</c>
-		<c>Microsoft.WindowsMaps 'Windows Maps'</c>
-		<c>Microsoft.WindowsSoundRecorder 'Windows Voice Recorder'</c>
-		<c>Microsoft.Xbox.TCUI 'Xbox TCUI'</c>
-		<c>Microsoft.XboxApp 'Xbox'</c>
-		<c>Microsoft.XboxGameCallableUI 'Xbox Game UI'</c>
-		<c>Microsoft.XboxGameOverlay 'Xbox Game Bar Plugin'</c>
-		<c>Microsoft.XboxGamingOverlay 'Xbox Game Bar'</c>
-		<c>Microsoft.XboxSpeechToTextOverlay 'Xbox Game Speech Window'</c>
-		<c>Microsoft.YourPhone 'Your Phone'</c>
-		<c>Microsoft.ZuneMusic 'Groove Music'</c>
-		<c>Microsoft.ZuneVideo 'Movies &amp; TV'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>microsoft.xboxgameoverlay 'Xbox Game Bar Plugin'</c>
+		<c>microsoft.xboxgamingoverlay 'Xbox Game Bar'</c>
+		<c>microsoft.xboxspeechtotextoverlay 'Xbox Game Speech Window'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Windows Media Player'</c>
+		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
+		<c>microsoftcorporationii.microsoftfamily 'Microsoft Family'</c>
+		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
 		<c>mobilepc</c>
 		<c>mobilepc_location 'Location notifications'</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
@@ -135,13 +133,14 @@
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
-		<c>Windows.CBSPreview 'Windows Barcode Preview'</c>
+		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="false">
 		<ComponentFeatures>
 			<Feature enabled="no">AppGuard</Feature>
 			<Feature enabled="no">YubiKey</Feature>
 			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">USBCamera</Feature>
 			<Feature enabled="no">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
@@ -191,7 +190,6 @@
 		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
 		<Feature name="MediaPlayback">false</Feature>
 		<Feature name="Printing-PrintToPDFServices-Features">false</Feature>
-		<Feature name="Printing-XPSServices-Features">false</Feature>
 		<Feature name="SmbDirect">false</Feature>
 		<Feature name="WCF-TCP-PortSharing45">false</Feature>
 		<Feature name="WindowsMediaPlayer">false</Feature>
@@ -234,7 +232,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/INDEX</Key>
-								<Value>6</Value>
+								<Value>1</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -242,6 +240,7 @@
 				<UserData>
 					<ProductKey>
 						<Key></Key>
+						<WillShowUI>OnError</WillShowUI>
 					</ProductKey>
 				</UserData>
 			</component>
@@ -260,7 +259,6 @@
 				<Tweak name="Advanced\LaunchTo">1</Tweak>
 				<Tweak name="Explorer\HubMode">1</Tweak>
 				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
-				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="PowerAndShutdown">
 				<Tweak name="Power\HiberbootEnabled">0</Tweak>
@@ -369,7 +367,6 @@
 				<Tweak name="MapsBroker\MapsBroker">4</Tweak>
 				<Tweak name="embeddedmode\embeddedmode">4</Tweak>
 				<Tweak name="EntAppSvc\EntAppSvc">4</Tweak>
-				<Tweak name="Fax\Fax">4</Tweak>
 				<Tweak name="fhsvc\fhsvc">4</Tweak>
 				<Tweak name="BcastDVRUserService\BcastDVRUserService">4</Tweak>
 				<Tweak name="lfsvc\lfsvc">4</Tweak>
@@ -381,6 +378,7 @@
 				<Tweak name="McpManagementService\McpManagementService">4</Tweak>
 				<Tweak name="MessagingService\MessagingService">4</Tweak>
 				<Tweak name="diagnosticshub.standardcollector.service\diagnosticshub.standardcollector.service">4</Tweak>
+				<Tweak name="cloudidsvc\cloudidsvc">4</Tweak>
 				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
 				<Tweak name="edgeupdatem\edgeupdatem">4</Tweak>
 				<Tweak name="swprv\swprv">4</Tweak>
@@ -411,7 +409,6 @@
 				<Tweak name="svsvc\svsvc">4</Tweak>
 				<Tweak name="OneSyncSvc\OneSyncSvc">4</Tweak>
 				<Tweak name="Themes\Themes">4</Tweak>
-				<Tweak name="TabletInputService\TabletInputService">4</Tweak>
 				<Tweak name="UserDataSvc\UserDataSvc">4</Tweak>
 				<Tweak name="UnistoreSvc\UnistoreSvc">4</Tweak>
 				<Tweak name="VSS\VSS">4</Tweak>
@@ -421,7 +418,7 @@
 				<Tweak name="FrameServer\FrameServer">4</Tweak>
 				<Tweak name="WerSvc\WerSvc">4</Tweak>
 				<Tweak name="Wecsvc\Wecsvc">4</Tweak>
-				<Tweak name="stisvc\stisvc">4</Tweak>
+				<Tweak name="StiSvc\StiSvc">4</Tweak>
 				<Tweak name="wisvc\wisvc">4</Tweak>
 				<Tweak name="LicenseManager\LicenseManager">4</Tweak>
 				<Tweak name="WManSvc\WManSvc">4</Tweak>
