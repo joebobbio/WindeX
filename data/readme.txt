@@ -1,4 +1,4 @@
--- WindeX 1.3.1 --
+-- WindeX 1.3.2 --
 It cleans your Windows. Like Windex. Get it?
 Made by 6cxe for everyone. Please credit if reposting. Thanks :)
 
