@@ -4,6 +4,10 @@ Windex? Get it? :^)
 # ⚠ I AM NOT PERFECT
 ## Please keep this in mind when making use of it. If something doesn't work right, please make an issue.
 
+## Warning
+Be warned that your system **will be less secure** when using this preset. If this bothers you, revert the insecurities I made, or better yet, install regular Windows.
+
+A future update to Windows may undo some of the changes done by the configuration. Please reinstall Windows if that happens.
 
 ## About
 Windows slowing you down? Too much bloat? Wash it all away with Windex!
@@ -16,11 +20,6 @@ The instructions will eventually find their way to the [wiki](https://github.com
 ## Current issues
 * [ ] Fix SteamVR display mirroring
 * [ ] Fix Devices tab in modern settings app
-
-## Warning
-Be warned that your system **will be less secure** when using this preset. If this bothers you, revert the insecurities I made, or better yet, install regular Windows.
-
-A future update to Windows may undo some of the changes done by the configuration. Please reinstall Windows if that happens.
 
 
 ### If this helped you, please ⭐ Star the repository. Thanks!
