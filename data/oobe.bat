@@ -7,6 +7,7 @@ echo Adding default user and tweaking a few things...
 net user /add MyUserName
 net localgroup /add users MyUserName
 net localgroup /add administrators MyUserName
+wmic UserAccount set PasswordExpires=False
 reg add "HKLM\SYSTEM\Setup" /v "SystemSetupInProgress" /t REG_DWORD /d "0" /f
 reg add "HKLM\SYSTEM\Setup" /v "SetupType" /t REG_DWORD /d "0" /f
 reg add "HKLM\SYSTEM\Setup" /v "OOBEInProgress" /t REG_DWORD /d "0" /f
